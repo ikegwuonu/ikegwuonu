@@ -1,0 +1,44 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.line {
+  height: 5px;
+}
+.what-i-do {
+  display: flex;
+
+  justify-content: center;
+  gap: 1rem;
+}
+.what-one {
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--card);
+}
+
+.what-one-intro {
+  display: flex;
+  gap: 1rem;
+}
+.what-two {
+  flex: 1;
+  background: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .line {
+    max-width: 100px;
+  }
+  .what-i-do {
+    flex-direction: column;
+  }
+}

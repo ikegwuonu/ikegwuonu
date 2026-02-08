@@ -1,0 +1,29 @@
+.contact-one{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.form{
+    background: var(--bg);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.form-name{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+
+}
+.form-name>input{
+    border: none;
+    outline: none;
+    background: var(--bg);
+}
+.submit{
+    padding: 10px;
+    border: 3px solid var(--red);
+    border-radius: 25px;
+    width: fit-content;
+    font-weight: bold;
+    cursor: pointer;
+}

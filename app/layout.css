@@ -1,0 +1,74 @@
+:root {
+  --bg: #f2f5f9;
+  --gradient: linear-gradient(to right, #ff9c1b, #ec1b09);
+  --menu: #e1e8ef;
+  --card: #ffeed9;
+  --yellow: #ff9c1b;
+  --red: #ec1b09;
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.App {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  min-height: 100vh;
+  background: var(--bg);
+
+  padding: 3rem 10rem;
+  position: relative;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+.svg-img {
+  position: absolute;
+  z-index: 2;
+  opacity: 0.3;
+  size: 300px;
+}
+.svg-img > img {
+  width: auto;
+}
+.svg-img:nth-child(1) {
+  top: 40%;
+  left: 5%;
+}
+.svg-img:nth-child(2) {
+  top: 1%;
+  left: 19%;
+}
+.svg-img:nth-child(3) {
+  top: 10%;
+  right: 4%;
+}
+.svg-img:nth-child(4) {
+  top: 19%;
+  right: 53%;
+}
+.svg-img:nth-child(5) {
+  top: 70%;
+  left: 70%;
+}
+.svg-img:nth-child(6) {
+  top: 30%;
+  right: 4%;
+}
+
+@media (max-width: 920px) {
+  .App {
+    padding: 0.9rem;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .svg-img > img {
+    width: 60%;
+  }
+}

@@ -1,0 +1,9 @@
+.core {
+  padding-left: 10px;
+  margin-left: 13px;
+}
+.contact-one {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
