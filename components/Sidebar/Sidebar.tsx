@@ -98,7 +98,7 @@ const Sidebar = () => {
         ))}
       </div>
 
-      <a href="/Juliet_FE_CV.pdf" download="Juliet_CV_FE">
+      <a href="/Juliet-Ike-CV-FS.pdf" download="Juliet_CV_FE">
         <div className="download">
           <Image width={30} height={30} src="/doenload.svg" alt="download cv" />
           <p>Download CV</p>
